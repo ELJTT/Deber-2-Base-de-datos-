@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: yavaliobarrigaseñorvrg-1
+      POSTGRES_PASSWORD: PruebaPasword
       POSTGRES_DB: mi_base_datos
     ports:
       - "5433:5432"  # Puerto 5433 en tu PC mapeado al 5432 del contenedor (evita conflictos)
